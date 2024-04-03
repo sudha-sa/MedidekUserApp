@@ -71,16 +71,23 @@ const EnterPasswordPage = ({route}) => {
         <Image source={require("../../assets/medidek-logo.png")} resizeMode='contain' style={{ width: 141, height: 44 }} />
       </View>
 
-      <View style={{ marginTop: 70, }}>
-        <Image source={require('../../assets/Group960.png')} resizeMode='contain' style={{ width: 188, height: 57 }} />
-      </View>
-      <View style={{ marginVertical: 35, alignItems: 'flex-end', }}>
-        <Image source={require('../../assets/Group959.png')} resizeMode='contain' style={{ width: 188, height: 57 }} />
-      </View>
-      <View style={{ flexDirection: 'row', width: '100%',}} resizeMode='cover'>
-        <View style={{ width: '10%,', marginVertical: 25, }}>
-          <Image source={require('../../assets/Group961.png')} resizeMode='contain' style={{ width: 155, height: 57 }} />
+      <View style={{ marginTop: 70,}}>
+          <View style={{ backgroundColor: '#FFFFFF', paddingHorizontal: 16, paddingVertical: 16, borderRadius: 5, width: '60%', }}>
+            <Text style={{ color: '#1F51C6', fontSize: 16, fontWeight: '500', textAlign: 'center' }}>Track Appointment</Text>
+          </View>
+          {/* <Image source={require('../../assets/Group960.png')} resizeMode='contain' style={{ width: 188, height: 57 }} /> */}
         </View>
+        <View style={{ marginVertical: 40, alignItems: 'flex-end', }}>
+          <View style={{ backgroundColor: '#FFFFFF', paddingHorizontal: 16, paddingVertical: 16, borderRadius: 5, width: '60%', }}>
+            <Text style={{ color: '#1F51C6', fontSize: 16, fontWeight: '500', textAlign: 'center' }}>Track Appointment</Text>
+          </View>
+        </View>
+        <View style={{ flexDirection: 'row', width: '100%',gap:30 }} resizeMode='cover'>
+          <View style={{ width: '15%,', marginVertical: 25, }}>
+            <View style={{ backgroundColor: '#FFFFFF', paddingHorizontal: 16, paddingVertical: 16, borderRadius: 5, }}>
+              <Text style={{ color: '#1F51C6', fontSize: 16, fontWeight: '500', textAlign: 'center' }}>Upload Records</Text>
+            </View>
+          </View>
         <View style={{ alignItems: 'flex-end', width: '50%' }}>
           <Image source={require('../../assets/OBJECTS.png')} resizeMode='contain' style={{ width: 240, height: 208 }} />
         </View>
